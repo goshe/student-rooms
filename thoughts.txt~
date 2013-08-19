@@ -1,0 +1,49 @@
+## Seitenstruktur:
+- Startpage
+	# Info - Wohnheim (Lage, Zimmertypen, Preis, Belegung?)
+	# Info - FCG
+	# Bilder
+	# Impressum
+	# Kontakt
+	# Anfrage
+	
+	- Übersicht Wohnräume?
+		# Info Zimmertyp
+		# filterung 
+			# zimmertyp
+			# belegung
+			# preis
+	- Login
+		# login
+		
+		- Verwaltung der Räume
+			# add / remove 
+				# rooms
+				# roomtypes
+			# belegung
+
+
+## Model
+# Room
+	- belegt j/n
+	- ausstattung
+	- preis
+	- etage
+	- # roomtype
+	- # ausstattung
+
+# Roomtype
+	- name
+	- beschreibung
+	- bilder
+	- size
+	- küche
+	
+# Anfrage
+	- Room
+	- Kontaktdaten
+
+# User
+	- name
+	- email
+	- password
